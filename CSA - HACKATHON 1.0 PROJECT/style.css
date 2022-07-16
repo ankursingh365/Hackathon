@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap);
+
+.{
+    margin: 0;
+    padding: 0;
+}
+.background{
+background: -linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://th.bing.com/th/id/R.5de5b8e8543671dabd4cc27adcbc7af6?rik=W%2b8GuMSPuHCvMg&riu=http%3a%2f%2fwww.drumangle.com%2fsandbox%2fwp%2f21813%2fwp-content%2fuploads%2f2014%2f01%2fLogin-Screen-Background-Wood-5.jpg&ehk=TMHzqnjBfrbyPDJOa5r%2faEW5KXaTmc2Hw4CZtBCgTdk%3d&risl=&pid=ImgRaw&r=0);
+background-size: cover;
+background-position: 100vh;
+height: 100vh;
+}
+.content{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    z-index: 999;
+    background: rgba(255,255,255,0.04); 
+box-shadow:1.5px -1.5px 28px 10px rgba(0,0,0,0.75);
+}
